@@ -1,6 +1,6 @@
 <?php
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: controller/login.php
  * Author: Sami Metoui samimetoui@gmail.com
  * Description: login controller

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: main.php
  * Author: Sami Metoui samimetoui@gmail.com,
  * Description: main page, include requested controller page

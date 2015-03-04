@@ -1,6 +1,6 @@
 <?php
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: view/startquiz.php
  * Author: Sami Metoui samimetoui@gmail.com,
  * Originally written by Isaac Price (c) 2012
@@ -10,7 +10,7 @@
 ?>
 <html>
  <head>
-  <title>quizzmanager</title>
+  <title>Quizmanager</title>
   <meta charset="utf-8">
  </head>
  <body>

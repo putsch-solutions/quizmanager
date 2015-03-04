@@ -1,6 +1,6 @@
 <?php
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: view/footer.php
  * Author: Sami Metoui samimetoui@gmail.com
  * Description: display page footer view

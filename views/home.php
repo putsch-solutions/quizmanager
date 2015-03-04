@@ -1,6 +1,6 @@
 <?php
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: view/home.php
  * Author: Sami Metoui samimetoui@gmail.com
  * Description: display home page view
@@ -10,7 +10,7 @@
 
 <html>
  <head>
-  <title>quizzmanager</title>
+  <title>Quizmanager</title>
   <meta charset="utf-8">
  </head>
  <body>

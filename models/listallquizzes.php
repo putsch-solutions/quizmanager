@@ -1,7 +1,7 @@
 <?php
 
 /*
-   * Program: Quizzmanager
+   * Program: Quizmanager
    * File: models/listallquizzes.php
    * Author: Sami Metoui samimetoui@gmail.com
    * Description: list all quizzes model

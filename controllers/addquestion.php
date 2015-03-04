@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: controller/addquestion.php
  * Author: Sami Metoui samimetoui@gmail.com
  * Description: add question controller

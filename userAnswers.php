@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: userAnswers.php
  * Author: Sami Metoui samimetoui@gmail.com,
  * Originally written by Isaac Price (c) 2012

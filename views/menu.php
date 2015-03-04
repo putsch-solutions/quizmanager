@@ -1,6 +1,6 @@
 <?php
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: view/menu.php
  * Author: Sami Metoui samimetoui@gmail.com
  * Description: display page menu view

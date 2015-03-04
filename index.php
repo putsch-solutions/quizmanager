@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: view/index.php
  * Author: Sami Metoui samimetoui@gmail.com,
  * Description: redirection to the main.php

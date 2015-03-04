@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: DisplayImage.php
  * Author: Sami Metoui samimetoui@gmail.com,
  * Description: display jpg image

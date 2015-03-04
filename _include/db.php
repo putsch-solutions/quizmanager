@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: db.php
  * Author: Sami Metoui samimetoui@gmail.com
  * Description: Create database connection using pdo 
@@ -12,7 +12,7 @@
 $dbhost = "localhost";
 $dbusername = "root";
 $dbpasswd = "mysql3216";
-$dbname = "quizzmanager";
+$dbname = "Quizmanager";
 
 /**
  * Suite à la deprecation de l'api mysql, la classe ci-dessous permet

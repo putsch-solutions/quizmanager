@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: controller/newquiz.php
  * Author: Sami Metoui samimetoui@gmail.com
  * Description: new quiz creation controller

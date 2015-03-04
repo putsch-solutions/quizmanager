@@ -1,6 +1,6 @@
 <?php
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: view/newquiz.php
  * Author: Sami Metoui samimetoui@gmail.com
  * Description: display new quiz page view
@@ -9,7 +9,7 @@
 ?>
 <html>
  <head>
-  <title>quizzmanager</title>
+  <title>Quizmanager</title>
   <meta charset="utf-8">
  </head>
  <body>

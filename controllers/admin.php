@@ -1,6 +1,6 @@
 <?php
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: controller/admin.php
  * Author: Sami Metoui samimetoui@gmail.com
  * Description: admin controller

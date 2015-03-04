@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: controller/logout.php
  * Author: Sami Metoui samimetoui@gmail.com
  * Description: logout controller

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: controller/editquiz.php
  * Author: Sami Metoui samimetoui@gmail.com
  * Description: edit quiz controller

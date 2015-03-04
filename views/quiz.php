@@ -1,6 +1,6 @@
 <?php
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: view/quiz.php
  * Author: Sami Metoui samimetoui@gmail.com,
  * Originally written by Isaac Price (c) 2012
@@ -11,7 +11,7 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>quizzmanager</title>
+  <title>Quizmanager</title>
   <script type="text/javascript">
    function countDown(secs, elem) { //Chronometrage des questions et affichage
     var element = document.getElementById(elem);

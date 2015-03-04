@@ -1,6 +1,6 @@
 <?php
 /*
- * Program: Quizzmanager
+ * Program: Quizmanager
  * File: view/logout.php
  * Author: Sami Metoui samimetoui@gmail.com
  * Description: display logout page view
