@@ -12,7 +12,7 @@
 $dbhost = "localhost";
 $dbusername = "root";
 $dbpasswd = "mysql3216";
-$dbname = "Quizmanager";
+$dbname = "quizmanager";
 
 /**
  * Suite à la deprecation de l'api mysql, la classe ci-dessous permet
