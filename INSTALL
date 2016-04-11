@@ -12,4 +12,3 @@ Installation instructions
      CREATE USER 'qzm_user'@'localhost' IDENTIFIED BY 'qzm_pass';
      GRANT ALL PRIVILEGES ON quizmanager.* TO 'qzm_user'@'localhost';
      FLUSH PRIVILEGES;
-7/ 
