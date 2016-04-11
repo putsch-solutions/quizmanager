@@ -34,10 +34,10 @@
      <td><?php echo $row['quiz_num']; ?></td>
      <td><?php echo $row['quiz_title']; ?></td>
      <td align='center'>
-      <a class="foo" href="main.php?page=listquizzes&action=delete&quiz_num=<?php echo $row['quiz_num']; ?>">X</a>
+      <a class="foo" href="index.php?page=listquizzes&action=delete&quiz_num=<?php echo $row['quiz_num']; ?>">X</a>
      </td>
      <td align='center'>
-      <a href="main.php?page=editquiz&quiz_num=<?php echo $row['quiz_num']; ?>">E</a>
+      <a href="index.php?page=editquiz&quiz_num=<?php echo $row['quiz_num']; ?>">E</a>
      </td>
     </tr>
     <?php
@@ -46,7 +46,7 @@
   </table>
   <div>
    <br>
-   <a href="main.php?page=admin">Retour</a>
+   <a href="index.php?page=admin">Retour</a>
   </div>
   <script src="js/jquery-1.11.1.js"></script>
   <script type="text/javascript">

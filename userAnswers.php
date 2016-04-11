@@ -4,7 +4,6 @@
  * Program: Quizmanager
  * File: userAnswers.php
  * Author: Sami Metoui samimetoui@gmail.com,
- * Originally written by Isaac Price (c) 2012
  * Description: get quiz takers answers and save their score
  * License: GPL 3 (http://www.gnu.org/licenses/gpl.html)
  */
@@ -63,7 +62,7 @@ if (!isset($_SESSION['answer_array']) || count($_SESSION['answer_array']) < 1) {
  if (isset($_POST['complete']) && $_POST['complete'] == "true") {
   if (!isset($_POST['username']) || $_POST['username'] == "") {
    echo "<meta charset=\"utf-8\">Désolé, Nous avons une erreur";
-   echo '<br/><br/><a href="main.php?page=home">Terminer</a>';
+   echo '<br/><br/><a href="index.php?page=home">Terminer</a>';
    exit();
   }
   $username = $_POST['username'];
@@ -84,7 +83,7 @@ if (!isset($_SESSION['answer_array']) || count($_SESSION['answer_array']) < 1) {
    }
 
    echo "<meta charset=\"utf-8\">Avez-vous au moins lu les questions? Votre score est de seulement $percent% ";
-   echo '<br/><br/><a href="main.php?page=home">Terminer</a>';
+   echo '<br/><br/><a href="index.php?page=home">Terminer</a>';
    unset($_SESSION['answer_array']);
    unset($_SESSION['qid_array']);
 //session_destroy();
@@ -104,7 +103,7 @@ if (!isset($_SESSION['answer_array']) || count($_SESSION['answer_array']) < 1) {
   }
 
   echo "<meta charset=\"utf-8\">Merci d'avoir participé au quiz! Votre score est de $percent%";
-  echo '<br/><br/><a href="main.php?page=home">Terminer</a>';
+  echo '<br/><br/><a href="index.php?page=home">Terminer</a>';
   unset($_SESSION['answer_array']);
   unset($_SESSION['qid_array']);
 //session_destroy();

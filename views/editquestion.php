@@ -16,7 +16,7 @@
   <?php
   include 'menu.php';
   ?>  
-  <form method="POST" action="main.php?page=editquestion&quiz_num=<?php echo $quiz_num; ?>">
+  <form method="POST" action="index.php?page=editquestion&quiz_num=<?php echo $quiz_num; ?>">
    <div><h1>Editer une question</h1></div>
    <div>
     <label>Numéro: </label>
@@ -94,7 +94,7 @@
     <br>
     <!--<input type="submit" value="Modifier" name="update_question">-->
     <br><br>
-    <a href="main.php?page=editquiz&quiz_num=<?php echo $quiz_num; ?>">Retour</a>
+    <a href="index.php?page=editquiz&quiz_num=<?php echo $quiz_num; ?>">Retour</a>
    </div>
   </form>
   <script src="js/jquery-1.11.1.js"></script>

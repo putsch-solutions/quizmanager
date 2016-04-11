@@ -70,14 +70,14 @@
      <td align='center'><?php echo $row['question_type']; ?></td>
      <td align='center'><?php echo $row['question_order']; ?></td>
      <td align='center'>
-      <a href="main.php?page=editquiz&quiz_num=<?php echo $quiz_num; ?>&action=delete&question_num=<?php echo $row['question_num']; ?>">X</a>
+      <a href="index.php?page=editquiz&quiz_num=<?php echo $quiz_num; ?>&action=delete&question_num=<?php echo $row['question_num']; ?>">X</a>
      </td>
      <td align='center'>
-      <a href="main.php?page=editquestion&question_num=<?php echo $row['question_num']; ?>&quiz_num=<?php echo $quiz_num; ?>">E</a>
+      <a href="index.php?page=editquestion&question_num=<?php echo $row['question_num']; ?>&quiz_num=<?php echo $quiz_num; ?>">E</a>
      </td>
      <td align='center'>
-      <a href="main.php?page=editquiz&quiz_num=<?php echo $quiz_num; ?>&action=up&question_num=<?php echo $row['question_num']; ?>">Up</a>
-      <!-- | <a href="main.php?page=editquiz&quiz_num=<?php echo $quiz_num; ?>&action=down&question_num=<?php echo $row['question_num']; ?>">Down</a>-->
+      <a href="index.php?page=editquiz&quiz_num=<?php echo $quiz_num; ?>&action=up&question_num=<?php echo $row['question_num']; ?>">Up</a>
+      <!-- | <a href="index.php?page=editquiz&quiz_num=<?php echo $quiz_num; ?>&action=down&question_num=<?php echo $row['question_num']; ?>">Down</a>-->
      </td>
 
 
@@ -88,9 +88,9 @@
   </table>
   <div>
    <br>
-   <a href="main.php?page=addquestion&quiz_num=<?php echo $quiz_num; ?>">Ajouter une question</a>
+   <a href="index.php?page=addquestion&quiz_num=<?php echo $quiz_num; ?>">Ajouter une question</a>
    <br><br>
-   <a href="main.php?page=listquizzes">Retour</a>
+   <a href="index.php?page=listquizzes">Retour</a>
   </div>
   <script src="js/jquery-1.11.1.js"></script>
  </body>

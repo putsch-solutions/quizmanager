@@ -25,7 +25,7 @@ if (isset($_GET['question'])) {
  /* --> Vérifie que l'utilsateur n'entre pas manuellement le numéro de la question */
  if (!isset($_SESSION['qid_array']) && $question != 1) {
   $msg = "Désolé, pas de tricherie.";
-  header("location: main.php?page=startquiz&quiz_num=$quiz_num&msg=$msg");
+  header("location: index.php?page=startquiz&quiz_num=$quiz_num&msg=$msg");
   exit();
  }
  if (isset($_SESSION['qid_array']) && in_array($question, $_SESSION['qid_array'])) {
@@ -33,7 +33,7 @@ if (isset($_GET['question'])) {
   unset($_SESSION['answer_array']);
   unset($_SESSION['qid_array']);
 //session_destroy();
-  header("location: main.php?page=startquiz&quiz_num=$quiz_num&msg=$msg");
+  header("location: index.php?page=startquiz&quiz_num=$quiz_num&msg=$msg");
   exit();
  }
 
@@ -42,7 +42,7 @@ if (isset($_GET['question'])) {
   unset($_SESSION['answer_array']);
   unset($_SESSION['qid_array']);
   //session_destroy();
-  header("location: main.php?page=startquiz&quiz_num=$quiz_num&msg=$msg");
+  header("location: index.php?page=startquiz&quiz_num=$quiz_num&msg=$msg");
   exit();
  }
 }

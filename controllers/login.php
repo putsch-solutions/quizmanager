@@ -30,9 +30,9 @@ if (!empty($submit) && !empty($user_login)) {
   //echo $user_login . $user_passwd . $row['user_login'] . $row['user_passwd'];
   if (!empty($user_passwd) && $user_passwd == $row['user_passwd']) {
    $_SESSION['logged'] = 'TRUE';
-   header('Location: main.php?page=admin');
+   header('Location: index.php?page=admin');
    break 2;
-   /* echo "<script type='text/javascript'>document.location.replace('main.php?page=admin');</script>"; */
+   /* echo "<script type='text/javascript'>document.location.replace('index.php?page=admin');</script>"; */
   }
  }
  ?><div><font color="red">Nom ou mot de passe erroné</font></div><?php

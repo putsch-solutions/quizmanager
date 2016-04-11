@@ -3,7 +3,6 @@
  * Program: Quizmanager
  * File: view/quiz.php
  * Author: Sami Metoui samimetoui@gmail.com,
- * Originally written by Isaac Price (c) 2012
  * Description: display quiz view
  * License: GPL 3 (http://www.gnu.org/licenses/gpl.html)
  */
@@ -31,7 +30,7 @@
      xhr.send(vars);
      document.getElementById('counter_status').innerHTML = "";
      document.getElementById('btnSpan').innerHTML = '<h2>Le temps est écoulé!</h2>';
-     document.getElementById('btnSpan').innerHTML += '<a href="main.php?page=quiz&quiz_num=<?php echo $quiz_num; ?>&question=<?php echo $next; ?>">Cliquez ici maintenant</a>'; //affiche times up et le lien pour passer à la question suivante
+     document.getElementById('btnSpan').innerHTML += '<a href="index.php?page=quiz&quiz_num=<?php echo $quiz_num; ?>&question=<?php echo $next; ?>">Cliquez ici maintenant</a>'; //affiche times up et le lien pour passer à la question suivante
 
     }
     secs--; //Décrémente d'une seconde
@@ -78,7 +77,7 @@
      if (p.readyState == 4 && p.status == 200) {
       document.getElementById("status").innerHTML = '';
 //      alert("Thanks, Your answer was submitted" + p.responseText);
-      var url = 'main.php?page=quiz&quiz_num=<?php echo $quiz_num; ?>&question=<?php echo $next; ?>';
+      var url = 'index.php?page=quiz&quiz_num=<?php echo $quiz_num; ?>&question=<?php echo $next; ?>';
       window.location = url;
      }
     }

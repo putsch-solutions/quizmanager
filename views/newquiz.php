@@ -16,7 +16,7 @@
   <?php
   include 'menu.php';
   ?>  
-  <form method="POST" action="main.php?page=newquiz">
+  <form method="POST" action="index.php?page=newquiz">
    <div>
     <h1>Nouveau quiz</h1>
    </div>

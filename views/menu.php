@@ -9,25 +9,25 @@
 ?>
 
 <div>
- <a href="main.php?page=home">Accueil</a> - 
+ <a href="index.php?page=home">Accueil</a> - 
  <?php
  if ($_SESSION['logged'] == true) {
   ?>
-  <a href="main.php?page=admin">Admin.</a> - <a href="main.php?page=logout">Logout</a><br/><br/>
+  <a href="index.php?page=admin">Admin.</a> - <a href="index.php?page=logout">Logout</a><br/><br/>
   <?php
  } else {
   ?>
-  <a href="main.php?page=login">Login</a><br/><br/>
+  <a href="index.php?page=login">Login</a><br/><br/>
   <?php
  }
 
  if ($_SESSION['logged'] == true) {
   ?>
-  <a href="main.php?page=listquizzes">Liste des quizzes</a> - 
-  <a href="main.php?page=newquiz">Nouveau quiz</a> - 
-  <a href="main.php?page=listquiztakers">Liste des résultats</a> - 
+  <a href="index.php?page=listquizzes">Liste des quizzes</a> - 
+  <a href="index.php?page=newquiz">Nouveau quiz</a> - 
+  <a href="index.php?page=listquiztakers">Liste des résultats</a> - 
   <?php
  }
  ?>
- <a href = "main.php?page=listallquizzes">Démarrer un quiz</a>
+ <a href = "index.php?page=listallquizzes">Démarrer un quiz</a>
 </div><br/><br/>

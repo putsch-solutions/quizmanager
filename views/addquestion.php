@@ -16,7 +16,7 @@
   <?php
   include 'menu.php';
   ?>  
-  <form enctype="multipart/form-data" method="POST" action="main.php?page=addquestion&quiz_num=<?php echo $quiz_num; ?>">
+  <form enctype="multipart/form-data" method="POST" action="index.php?page=addquestion&quiz_num=<?php echo $quiz_num; ?>">
    <div>
     <h1>Ajouter une question</h1>
    </div>
@@ -58,7 +58,7 @@
    <div><br>
     <input type="submit" value="Continuer" name="add_question">
     <br><br>
-    <a href="main.php?page=editquiz&quiz_num=<?php echo $quiz_num; ?>">Retour</a>
+    <a href="index.php?page=editquiz&quiz_num=<?php echo $quiz_num; ?>">Retour</a>
    </div>
   </form>
   <script>

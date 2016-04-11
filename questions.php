@@ -4,7 +4,6 @@
  * Program: Quizmanager
  * File: questions.php
  * Author: Sami Metoui samimetoui@gmail.com,
- * Originally written by Isaac Price (c) 2012
  * Description: read requested question and answers and display them in a form
  * License: GPL 3 (http://www.gnu.org/licenses/gpl.html)
  */
@@ -40,7 +39,7 @@ if (isset($_GET['question'])) {
  }
  if ($arrCount > $numQuestions) { //Efface les réponses dans la table lorsqu'il y plus de question que prévu
   unset($_SESSION['answer_array']);
-  header("location: main.php?page=quiz");
+  header("location: index.php?page=quiz");
   exit();
  }
  if ($arrCount >= $numQuestions) { //arrête le quiz lorsqu'il y a autant de réponse que de question

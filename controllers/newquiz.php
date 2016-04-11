@@ -33,7 +33,7 @@ if (isset($continue)) {
  $row = $sql->fetch();
  $quiz_num = $row['quiz_num'];
 
- header("location: main.php?page=addquestion&quiz_num=$quiz_num");
+ header("location: index.php?page=addquestion&quiz_num=$quiz_num");
 }
 
 //On inclut la vue

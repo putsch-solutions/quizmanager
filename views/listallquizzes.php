@@ -32,7 +32,7 @@
     <tr>
      <td><?php echo $row['quiz_num']; ?></td>
      <td><?php echo $row['quiz_title']; ?></td>
-     <td align='center'><a href="main.php?page=startquiz&quiz_num=<?php echo $row['quiz_num']; ?>"> D </a></td>
+     <td align='center'><a href="index.php?page=startquiz&quiz_num=<?php echo $row['quiz_num']; ?>"> D </a></td>
     </tr>
     <?php
    }
@@ -41,7 +41,7 @@
 
   <div>
    <br>
-   <a href="main.php?page=home">Retour</a>
+   <a href="index.php?page=home">Retour</a>
   </div>
   <script src="js/jquery-1.11.1.js"></script>
  </body>

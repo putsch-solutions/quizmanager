@@ -10,8 +10,8 @@
 
 // Infos de connexion à la base de données
 $dbhost = "localhost";
-$dbusername = "root";
-$dbpasswd = "mysql3216";
+$dbusername = "qzm_user";
+$dbpasswd = "qzm_pass";
 $dbname = "quizmanager";
 
 /**

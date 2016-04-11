@@ -44,7 +44,7 @@
   </table>
   <div>
    <br>
-   <a href="main.php?page=admin">Retour</a>
+   <a href="index.php?page=admin">Retour</a>
   </div>
   <script src="js/jquery-1.11.1.js"></script>
  </body>

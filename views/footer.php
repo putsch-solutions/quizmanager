@@ -8,7 +8,7 @@
  */
 ?>
 <footer><hr/>
- (C) 2014 Alternatives Formations
+ (C) 2014-2016 Putsch Software
 </footer>
 
 

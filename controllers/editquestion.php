@@ -26,7 +26,7 @@ if (isset($update_question)) {
 // } catch (PDOException $e) {
 //  echo 'Erreur : ' . $e->getMessage();
 // }
-// header("location: main.php?page=addquestion&quiz_num=$quiz_num");
+// header("location: index.php?page=addquestion&quiz_num=$quiz_num");
 }
 
 $sql = $pdo->prepare("SELECT * FROM questions WHERE question_num=:question_num");
