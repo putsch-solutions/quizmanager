@@ -2,7 +2,7 @@
 Installation instructions
 -------------------------
 
-1/ Installe Wamp, Mamp or Lamp depending on your OS
+1/ Install Wamp, Mamp or Lamp depending on your OS
 2/ Copy quizmanager installation forlder to your www folder or create link
 3/ Create quizmanger database with your MySQL admin tool (command line, phpmyadmin, etc.)
 4/ import database structure form quizmanager.sql file located in quizmanager installation folder
